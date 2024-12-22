@@ -5,8 +5,8 @@ import dash
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 
-artist_df = pd.read_csv("/Users/jason/Desktop/Museam-of-Modern-Art/Artists.csv")
-artwork_df = pd.read_csv("/Users/jason/Desktop/Museam-of-Modern-Art/Artworks.csv")
+artist_df = pd.read_csv("Artists.csv")
+artwork_df = pd.read_csv("Artworks.csv")
 
 from cards import combined_card_1, combined_card_2, combined_card_3, combined_card_4, combined_card_5, artist_num_feats, artwork_num_feats, memory, num_artists, num_artworks, num_nationalities, num_classifications
 from Tab1 import T1fig1, T1fig2, T1fig3, T1fig5

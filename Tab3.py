@@ -5,8 +5,8 @@ import dash
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 
-artist_df = pd.read_csv("/Users/jason/Desktop/Museam-of-Modern-Art/Artists.csv")
-artwork_df = pd.read_csv("/Users/jason/Desktop/Museam-of-Modern-Art/Artworks.csv")
+artist_df = pd.read_csv("Artists.csv")
+artwork_df = pd.read_csv("Artworks.csv")
 
 artwork_df['painting_size'] = artwork_df['Height (cm)']* artwork_df['Width (cm)']
 artwork_df['Date'] = artwork_df['Date'].replace('n.d.', '0')

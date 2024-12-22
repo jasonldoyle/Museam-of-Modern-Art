@@ -4,8 +4,8 @@ import numpy as np
 import dash
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
-artist_df = pd.read_csv("/Users/jason/Desktop/Museam-of-Modern-Art/Artists.csv")
-artwork_df = pd.read_csv("/Users/jason/Desktop/Museam-of-Modern-Art/Artworks.csv")
+artist_df = pd.read_csv("Artists.csv")
+artwork_df = pd.read_csv("Artworks.csv")
 
 def combined_card_1(metrics, bg_colour="#2D2D2D", text_colour="#FFFFFF"):
     return html.Div(
