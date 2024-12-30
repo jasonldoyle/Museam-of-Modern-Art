@@ -8,6 +8,7 @@ from dash import Dash, dcc, html, Input, Output
 artist_df = pd.read_csv("Artists.csv")
 artwork_df = pd.read_csv("Artworks.csv")
 
+
 artwork_df['painting_size'] = artwork_df['Height (cm)']* artwork_df['Width (cm)']
 artwork_df['Date'] = artwork_df['Date'].replace('n.d.', '0')
 artwork_df['Date'] = artwork_df['Date'].str.split('-').str[0]

@@ -9,6 +9,7 @@ artist_df = pd.read_csv("Artists.csv")
 artwork_df = pd.read_csv("Artworks.csv")
 
 
+
 def classify_only_male(gender):
     if not isinstance(gender, str):  
         return gender
