@@ -23,7 +23,7 @@ Visualisation used
 Available at;
   |  | Notebook |
 | --- | --- |
-| Kaggle | (https://www.kaggle.com/code/jldoyle/museum-of-modern-art-dashboard/notebook) |
+| Kaggle with Inline Notebook | (https://www.kaggle.com/code/jldoyle/museum-of-modern-art-dashboard/notebook) |
 | Python | (https://github.com/jasonldoyle/Museam-of-Modern-Art/tree/main/Python%20FIles) |
 *File too large for render*
 ### Tech-stack + Libraries
