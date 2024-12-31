@@ -1,9 +1,13 @@
 ### Description
 
-Dashboard with three tabs 
-1) About the museum and it's acquisitions
-2) About the artists that have been shown in the museum
-3) A look at some of the most popular artworks, mediums etc. thorugh each decade
+In this project, I explored two datasets focusing on the artists and artworks featured in the Museum of Modern Art. Using this data, I built an interactive dashboard to provide insights into various aspects of the museum’s collection and history.
+
+The dashboard has three tabs:
+1) An overview of the **Museum’s** acquisition patterns over time.
+2) A breakdown of the **Artists** whose works are featured in the museum.
+3) An exploration of popular artworks, mediums, and trends across different **Decades**.
+
+The project has a notebook with Dash, a JupyterDash version for inline viewing, and a standalone app using Python scripts. For easier access, I included screenshots of the dashboard at the bottom of this ReadMe, along with links to my Kaggle notebook (Inline notebook) and additional details about the datasets and tech stack.
 
 ### Dataset
 
